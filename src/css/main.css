@@ -90,3 +90,37 @@ width: 352px;
 font-size: 28px;
 }    
 }
+/* Why Players Stay */
+.why-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.why-item{
+border-radius: 16px;
+    padding: 24px;
+    width: 343px;
+    height: auto;
+    background: #e9c7a6;
+}
+.why-item-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #8b6914;
+    margin-bottom: 8px;
+}
+@media only screen and (min-width: 1440px) {
+ .why-list{
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 32px;
+}
+.why-item{
+width: 544px;
+}
+.why-item-title{
+font-size: 28px;
+}   
+}
