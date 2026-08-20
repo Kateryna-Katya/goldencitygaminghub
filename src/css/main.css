@@ -54,3 +54,39 @@ margin-bottom: 16px;
     width: 448px;
 }   
 }
+/* How It Works */
+.big{
+font-weight: 700;
+    font-size: 20px;
+}
+.how-list{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+gap: 32px;
+}
+.how-item{
+    display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+.how-item-title{
+font-family: "Darker Grotesque", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #8b6914;
+}
+@media only screen and (min-width: 1440px) {
+.how-list{
+flex-direction: row;
+justify-content: center;
+}
+.how-item{
+width: 352px;
+}
+.how-item-title{
+font-size: 28px;
+}    
+}
