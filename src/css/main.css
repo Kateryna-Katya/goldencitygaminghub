@@ -124,3 +124,58 @@ width: 544px;
 font-size: 28px;
 }   
 }
+/* Daily Challenges and Districts */
+.daily-list{
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.daily-item{
+border-radius: 16px;
+    padding: 24px;
+    width: 343px;
+height: 279px;
+background: #e9c7a6;
+}
+.daily-item-title{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #8b6914;
+}
+.d2{
+    width: 343px;
+    height: 191px;
+}
+.d2 img{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 1440px) {
+.daily-list{
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.daily-item{
+width: 544px;
+    height: 308px;
+}
+.daily-item-title{
+font-size: 28px;
+}
+.d1{
+    order: 1;
+}
+.d3{
+    order: 2;
+}
+.d2{
+width: 1120px;
+    height: 503px;
+order: 3;
+}
+   
+}
